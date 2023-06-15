@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><router-link class="routerLink" to="./home">Home</router-link></a>
+          <a class="nav-link active" aria-current="page" href="#"><router-link class="routerLink" to="./">Home</router-link></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><router-link class="routerLink" to="./list">List</router-link></a>
