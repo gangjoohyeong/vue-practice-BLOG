@@ -1,12 +1,15 @@
 <template>
-    <h4>이름: 강주형</h4>
-    <p>Email: bles@kakao.com</p>
-    <p>Instagram: @gangjoohyeong</p>
+    <h4>상세 페이지</h4>
+    <p> {{ blogPost[$route.params.id].title }}</p>
+    <p> {{ blogPost[$route.params.id].content }}</p>
 </template>
 
 <script>
 export default {
     name : "Detail",
+    props : {
+        blogPost : Array,
+    }
 }
 </script>
 
